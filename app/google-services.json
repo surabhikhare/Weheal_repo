@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1032570789853",
+    "firebase_url": "https://jadoo-3b26d.firebaseio.com",
+    "project_id": "jadoo-3b26d",
+    "storage_bucket": "jadoo-3b26d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032570789853:android:5e3d47938e9425f5812034",
+        "android_client_info": {
+          "package_name": "com.hfad.jadoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032570789853-nkicortklcph0lalkhjc6a5s1mgd9hlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfad.jadoo",
+            "certificate_hash": "bdf8b8cee1e86eb84e982117c3509daeb24d576c"
+          }
+        },
+        {
+          "client_id": "1032570789853-u9fcnd7db8jjf6vg1f61fra387aoj975.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3XIihXJ0La2yc2OV5SB7LhRRSjhJydxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032570789853-u9fcnd7db8jjf6vg1f61fra387aoj975.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

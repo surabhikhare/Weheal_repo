@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/num_of_online_Healer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="626dp"
+        android:text="numofOnlineHealer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/num_of_online_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="140dp"
+        android:text="numOfOnlineUser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num_of_online_Healer"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <TextView
+        android:id="@+id/num_of_offline_healer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="140dp"
+        android:text="numofOfflineHealer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num_of_online_user"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/num_of_offline_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="numOfOfflineUser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num_of_offline_healer"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Button
+        android:id="@+id/on_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onclick"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <Button
+        android:id="@+id/lo_gin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="104dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
